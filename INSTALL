@@ -1,0 +1,20 @@
+The following are the environment prerequisites:
+ 
+You will need _make_ installed in your environment.
+
+    #In debian based systems (e.g., ubuntu, mint, etc):
+    sudo apt-get install build-essential
+
+You will need to install some perl dependancies:
+
+    #use the cpan tool (it comes with perl), to install perl dependancies:
+    cpan install LWP::UserAgent Data::Dump JSON Test::Deep Test::Exception Test::Fake::HTTPD Getopt::Long
+
+Ok, now you can install the actual module after downloading and extracting:
+
+    tar xzvf Diffbot-Client-0.01.tar.gz
+    cd Diffbot-Client-0.01
+    perl Makefile.PL
+    make
+    make test
+    sudo make install

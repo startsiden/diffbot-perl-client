@@ -1,0 +1,8 @@
+Changes
+INSTALL
+MANIFEST
+Makefile.PL
+README.md
+bin/query_diffbot.pl
+lib/Diffbot/Client.pm
+t/Diffbot-Client.t

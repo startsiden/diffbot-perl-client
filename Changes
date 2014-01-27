@@ -1,0 +1,6 @@
+Revision history for Perl extension Diffbot::Client.
+
+0.01  Wed Jan  8 13:36:05 2014
+	- original version authored by Kyle Zeeuwen; created by h2xs 1.23 with options
+		-AX -b 5.12.0 Diffbot::Client
+

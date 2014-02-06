@@ -159,4 +159,4 @@ Run the following command to get up to date usage instructions:
 
     perl bin/query_diffbot.pl --help
 
--Initial commit by Zyle Zeeuwen-
+-Initial commit by Kyle Zeeuwen-

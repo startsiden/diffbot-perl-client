@@ -4,7 +4,7 @@ use 5.012000;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 use JSON;
@@ -15,7 +15,7 @@ my $DEFAULTS = {
 };
 
 my $PATHS = {
-    'article'   => 'v2/article',
+    'article'   => 'v3/article',
     'frontpage' => 'v2/frontpage',
     'image'     => 'v2/image',
     'product'   => 'v2/product',
